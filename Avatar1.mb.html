@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Canvas Landing Page</title>
+    <style>
+        body
+        {
+            padding-top : 100px;
+            background  : #ddd;
+            color       : #888;
+            line-height : 2em;
+            font-size   : 1.75em;
+            font-family : Verdana, sans-serif;
+        }
+
+        #header-label, #buttons
+        {
+            text-align : center;
+        }
+
+        #buttons a
+        {
+            display         : inline-block;
+            margin          : 1em;
+            text-decoration : none;
+            color           : #888;
+            font-weight     : bold;
+        }
+
+        #buttons a:hover
+        {
+            text-decoration : underline;
+        }
+
+        #buttons #parents:hover
+        {
+            color : #68479d;
+        }
+
+        #buttons #students:hover
+        {
+            color : #4668b1;
+        }
+
+        #buttons #employees:hover
+        {
+            color : #e39a2c;
+        }
+
+        #footer
+        {
+            font-size  : 13px;
+            text-align : center;
+        }
+
+        #footer a
+        {
+            color : #525894;
+        }
+    </style>
+</head>
+
+<body>
+<div id="header-label"><img src="images/canvas-login.png"/></div>
+<div id="buttons">
+    <p style="font-weight:normal;">Login to Canvas as&hellip;</p>
+    <a id="students" href="https://nebo.instructure.com/login/saml/1561"><img src="images/Students.png"/><br>a
+                                                                                                             Student</a>
+    <a id="parents" href="https://nebo.instructure.com/login/canvas"><img src="images/Parents.png"/><br>a Parent</a>
+    <a id="employees" href="https://nebo.instructure.com/login/saml/1560"><img src="images/Teachers.png"/><br>an
+                                                                                                              Employee</a>
+</div>
+</body>
+</html>
